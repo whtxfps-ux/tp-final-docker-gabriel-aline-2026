@@ -1,0 +1,13 @@
+services:
+  site:
+    build:
+      context: .
+    ports:
+      - "8080:80"
+    restart: unless-stopped
+
+  diagnostico:
+    image: traefik/whoami:v1.11.0
+    ports:
+      - "8081:80"
+    restart: unless-stopped
