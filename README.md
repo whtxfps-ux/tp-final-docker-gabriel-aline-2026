@@ -45,7 +45,3 @@ Para encerrar e remover os contêineres e a rede criada pelo Compose:
 ```powershell
 docker compose down
 ```
-
-## Entrega
-
-Antes de enviar, publique estes arquivos em um repositório GitHub e gere um PDF com capturas de tela mostrando os dois endereços funcionando, o resultado de `docker compose ps` e alguns dos comandos de exploração. A entrega solicitada no material da disciplina inclui o link do GitHub e esse PDF; confira o destinatário e o assunto diretamente no enunciado.
